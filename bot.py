@@ -86,7 +86,7 @@ bot = discord.Client()
 async def on_ready():
     print('started')
 
-    if today <= 4:
+    if today <= 5:
         await bot.change_presence(activity=discord.Game(name=lunch[today][0], type=0))
     else:
         await bot.change_presence(activity=discord.Game(name='-lunch', type=0))
@@ -95,7 +95,7 @@ async def on_ready():
 async def on_message(message):
 
     if message.content in ('-lunch', '-food', '-lunch day'):
-        if today < 4:
+        if today < 5:
             food = ['\n🥗 '.join(item) for item in lunch]
             await message.channel.send('<:cyber:572502490659160086>**Skolmat ' + day[today] + ' ' + now.strftime("%d/%m") + '**\n\n🍖 ' + food[today])
         else:
