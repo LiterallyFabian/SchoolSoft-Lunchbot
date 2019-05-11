@@ -4,7 +4,7 @@ Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/d
 ## Setup
 Fill in your information in the keys.py file and run bot.py.
 
-If you want a bot for Cybergymnasiet, you can invite [this one hosted by me](https://discordapp.com/api/oauth2/authorize?client_id=571758785115324427&permissions=0&scope=bot.
+If you want a bot for Cybergymnasiet, feel free to invite [this one hosted by me](https://discordapp.com/api/oauth2/authorize?client_id=571758785115324427&permissions=0&scope=bot).
 
 ## Features
 - **-lunch**: Shows the current lunch
@@ -20,7 +20,8 @@ If you want a bot for Cybergymnasiet, you can invite [this one hosted by me](htt
   
 ![-wlunch command](https://cdn.discordapp.com/attachments/520168552687206400/576808397832454184/unknown.png)
 
-- The bot will have a game status with the current primary dish
+- **Game status**
+  - The bot will have a game status with the current primary dish
   - Will at the moment only update when the bot gets restarted which may be a bit misleading. That will be changed in the future
   
 ![Bot status](https://cdn.discordapp.com/attachments/520168552687206400/576809571167764500/unknown.png)
