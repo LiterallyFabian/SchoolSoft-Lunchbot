@@ -1,7 +1,10 @@
 # SchoolSoft lunchbot (via Discord.py)
 Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/discord.py) and the [Unofficial SchoolSoft API](https://github.com/lnus/schoolsoft-api) for showing the current lunch in schools using Schoolsoft. The code isn't very well structured, but everything should work fine
 
+## Setup
+Fill in your information in the keys.py file and run bot.py.
 
+If you want a bot for Cybergymnasiet, you can invite [this one hosted by me](https://discordapp.com/api/oauth2/authorize?client_id=571758785115324427&permissions=0&scope=bot.
 
 ## Features
 - **-lunch**: Shows the current lunch
@@ -22,7 +25,4 @@ Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/d
   
 ![Bot status](https://cdn.discordapp.com/attachments/520168552687206400/576809571167764500/unknown.png)
 
-## Setup
-Fill in your information in the keys.py file and run bot.py.
 
-If you want a bot for Cybergymnasiet, you can invite [this one hosted by me](https://discordapp.com/api/oauth2/authorize?client_id=571758785115324427&permissions=0&scope=bot.
