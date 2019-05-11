@@ -18,6 +18,9 @@ Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/d
 ![-wlunch command](https://cdn.discordapp.com/attachments/520168552687206400/576808397832454184/unknown.png)
 
 - The bot will have a game status with the current primary dish
-  - Will at the moment only update when the bot gets restarted, that will be changed in the future
+  - Will at the moment only update when the bot gets restarted which may be a bit misleading. That will be changed in the future
   
 ![Bot status](https://cdn.discordapp.com/attachments/520168552687206400/576809571167764500/unknown.png)
+
+## Setup
+s
