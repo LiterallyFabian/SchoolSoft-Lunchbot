@@ -97,13 +97,13 @@ async def on_message(message):
     if message.content in ('-lunch', '-food', '-lunch day'):
         if today < 5:
             food = ['\n🥗 '.join(item) for item in lunch]
-            await message.channel.send('<:cyber:572502490659160086>**Skolmat ' + day[today] + ' ' + now.strftime("%d/%m") + '**\n\n🍖 ' + food[today])
+            await message.channel.send('🍽**Skolmat ' + day[today] + ' ' + now.strftime("%d/%m") + '**\n\n🍖 ' + food[today])
         else:
             await message.channel.send('Ingen lunch idag!')
 
     if message.content in ('-wlunch', '-wfood', '-lunch week'):
         food = ['\n🥗 '.join(item) for item in lunch]
-        await message.channel.send('<:cyber:572502490659160086>**Skolmat vecka ' + str(weekNumber) + '**\n\n' + ("**Måndag:**\n🍖 {}\n\n**Tisdag:**\n🍖 {}\n\n**Onsdag:**\n🍖 {}\n\n**Torsdag:**\n🍖 {}\n\n**Fredag:**\n🍖 {}".format(*food)))
+        await message.channel.send('🍽**Skolmat vecka ' + str(weekNumber) + '**\n\n' + ("**Måndag:**\n🍖 {}\n\n**Tisdag:**\n🍖 {}\n\n**Onsdag:**\n🍖 {}\n\n**Torsdag:**\n🍖 {}\n\n**Fredag:**\n🍖 {}".format(*food)))
 
 
 bot.run(keys.bottoken)
