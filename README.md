@@ -1,6 +1,9 @@
-# SchoolSoft lunchbot (via Discord.py) 
+# SchoolSoft lunch bot (via Discord.py) 
 
-Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/discord.py) and the [Unofficial SchoolSoft API](https://github.com/lnus/schoolsoft-api) for showing the current lunch in schools using Schoolsoft. The code isn't very well structured, but everything should work fine
+Simple Discord bot made in Python using [discord.py](https://github.com/Rapptz/discord.py) and the [Unofficial SchoolSoft API](https://github.com/lnus/schoolsoft-api) for showing the current lunch in schools using Schoolsoft. 
+
+**⚠ Note that this project is not maintained and will most likely no longer work as SchoolSoft have updated their login systems.**
+
 
 ## Setup
 Fill in your information in the keys.py file and run bot.py.
@@ -20,6 +23,6 @@ Fill in your information in the keys.py file and run bot.py.
 
 - **Game status**
   - The bot will have a game status with the current primary dish
-  - Will at the moment only update when the bot gets restarted which may be a bit misleading. That will be changed in the future
+  - Will at the moment only update when the bot gets restarted.
   
 ![Bot status](https://cdn.discordapp.com/attachments/520168552687206400/576809571167764500/unknown.png)
